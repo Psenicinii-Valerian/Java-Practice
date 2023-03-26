@@ -1,0 +1,23 @@
+<%--
+  Created by IntelliJ IDEA.
+  User: Valerian
+  Date: 1/13/2023
+  Time: 7:16 PM
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<html>
+<head>
+    <title>Add employee</title>
+</head>
+<body>
+
+<h1>Add employee</h1>
+
+<%@ include file="common/forms/employee_form.jsp"%>
+
+<a href="list">Go to List</a>
+
+</body>
+
+</html>

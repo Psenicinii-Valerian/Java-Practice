@@ -1,0 +1,23 @@
+<?<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<persons>
+		<person>
+			<first-name>John</first-name>
+			<last-name>Smith</last-name>
+			<age>35</age>
+			<gender>M</gender>
+		</person>
+
+		<person gender="F">
+			<first-name>Jane</first-name>
+			<last-name>Smith</last-name>
+			<age>29</age>
+			<gender>F</gender>
+		</person>
+
+	</persons>
+
+	<auto>
+
+	</auto>
+</list>

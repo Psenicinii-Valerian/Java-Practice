@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="246.0" prefWidth="571.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.step.controller.AddDialogController">
+   <children>
+      <Label layoutX="86.0" layoutY="63.0" prefHeight="30.0" prefWidth="44.0" text=" Name" />
+      <TextField fx:id="nameTxtField" layoutX="144.0" layoutY="62.0" prefHeight="31.0" prefWidth="363.0" />
+      <Label layoutX="68.0" layoutY="117.0" prefHeight="30.0" prefWidth="62.0" text="Birthdate" />
+      <DatePicker fx:id="birthdatePicker" layoutX="144.0" layoutY="116.0" prefHeight="31.0" prefWidth="363.0" />
+      <Button layoutX="251.0" layoutY="187.0" mnemonicParsing="false" onAction="#onAdd" prefHeight="31.0" prefWidth="70.0" text="Add" />
+   </children>
+</AnchorPane>

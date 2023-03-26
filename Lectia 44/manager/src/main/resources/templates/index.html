@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello world!</title>
+</head>
+<body>
+    <h1>Welcome to the employee manager!</h1>
+    <sub>Please choose the necessary action:</sub>
+    <ul><li th:each="employee : ${list}">
+        <span th:text="${employee.name}"></span>
+        <span th:text="${employee.surname}"></span>
+        <span th:text="${employee.salary}"></span>
+    </li></ul>
+</body>
+</html>

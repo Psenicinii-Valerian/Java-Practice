@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<persons>
+	<person>
+		<first-name>Justin</first-name>
+		<last-name>Hoover</last-name>
+		<gender>M</gender>
+	</person>
+
+	<person>
+		<first-name>Clayton</first-name>
+		<last-name>Langley</last-name>
+		<gender>F</gender>
+	</person>
+
+	<person>
+		<first-name>Orlando</first-name>
+		<last-name>Romero</last-name>
+		<gender>M</gender>
+	</person>
+
+	<person>
+		<first-name>Morgan</first-name>
+		<last-name>Pacheco</last-name>
+		<gender>F</gender>
+	</person>
+
+</persons>

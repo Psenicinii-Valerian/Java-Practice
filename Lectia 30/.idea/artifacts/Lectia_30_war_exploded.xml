@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Lectia 30:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Lectia_30_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Lectia 30/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="javaee-facet-classes" facet="Lectia 30/web/Web" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
